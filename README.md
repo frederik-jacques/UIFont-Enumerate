@@ -11,7 +11,12 @@ This extension on UIFont enumerates all the available font families on the devic
 
 ## Usage
 
-Just call the class method ` enumerateFonts`.
+Import the module in the file where you want to use the class method.
+    
+    import UIFont_Enumerate
+    
+
+Then you just call the class method ` enumerateFonts`.
 
 ```swift
 UIFont.enumerateFonts()
