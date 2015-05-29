@@ -15,14 +15,10 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Frederik Jacques" => "frederik@the-nerd.be" }
   s.source           = { :git => "https://github.com/frederik-jacques/UIFont-Enumerate.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/thenerd_be'
-  s.module_name = 'UIFont_Enumerate'
+  s.social_media_url = 'https://twitter.com/thenerd_be'  
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'UIFont-Enumerate' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'Pod/Classes/*.swift'
 
 end
