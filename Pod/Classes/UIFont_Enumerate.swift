@@ -9,7 +9,7 @@ import UIKit
 
 public extension UIFont {
 
-    class func enumerateFonts(){
+    public class func enumerateFonts(){
 
         println("[UIFont] Start enumerating \(UIFont.familyNames().count) font families")
 
