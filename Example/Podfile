@@ -1,9 +1,0 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
-
-
-target 'UIFont-Enumerate_Tests', :exclusive => true do
-  pod "UIFont-Enumerate", :path => "../"
-
-  
-end
