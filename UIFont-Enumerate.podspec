@@ -9,13 +9,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "UIFont-Enumerate"
-  s.version          = "1.0.2"
+  s.version          = "1.0.4"
   s.summary          = "Enumerate all available font families and their font names installed on your iOS device."
   s.homepage         = "https://github.com/frederik-jacques/UIFont-Enumerate"
   s.license          = 'MIT'
   s.author           = { "Frederik Jacques" => "frederik@the-nerd.be" }
   s.source           = { :git => "https://github.com/frederik-jacques/UIFont-Enumerate.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/thenerd_be'  
+  s.social_media_url = 'https://twitter.com/thenerd_be'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
